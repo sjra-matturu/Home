@@ -856,51 +856,77 @@ footer p {
   }
 }
 /* ============================= */
-/* INDEX PAGE QR DONATION BOX    */
+/* SUPPORT SECTION               */
 /* ============================= */
 
-.home-donation {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 28px;
-  align-items: center;
-}
-
-.mini-qr-box {
+.support-section {
   text-align: center;
 }
 
-.mini-qr-box h3 {
-  color: var(--maroon);
-  margin-bottom: 14px;
+.support-text {
+  max-width: 850px;
+  margin: 0 auto 38px;
+  line-height: 1.9;
+  color: var(--soft-text);
 }
 
-.mini-qr-placeholder {
-  width: 180px;
-  height: 180px;
+.support-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.support-details,
+.support-qr {
+  background: rgba(255, 250, 240, 0.92);
+
+  border: 1px solid var(--border);
+
+  border-radius: 18px;
+
+  padding: 32px;
+
+  box-shadow: 0 8px 24px var(--shadow);
+}
+
+.support-details h3,
+.support-qr h3 {
+  color: var(--maroon);
+  margin-bottom: 18px;
+}
+
+.support-details p {
+  margin-bottom: 12px;
+}
+
+.support-qr-box {
+  width: 220px;
+  height: 220px;
 
   margin: auto;
 
-  background: #fff;
+  background: white;
 
   border: 2px dashed var(--gold);
 
-  border-radius: 16px;
+  border-radius: 18px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mini-qr-placeholder img {
-  max-width: 150px;
-  max-height: 150px;
+.support-qr-box img {
+  max-width: 190px;
+  max-height: 190px;
   object-fit: contain;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
 
-  .home-donation {
+  .support-grid {
     grid-template-columns: 1fr;
   }
 
