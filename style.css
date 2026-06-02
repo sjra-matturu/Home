@@ -1,6 +1,5 @@
 /* =========================================================
-   Sri Janaki Rama Ashrama - Final Website Stylesheet
-   Classical / Vaidika / Manuscript-inspired aesthetic
+   Sri Janaki Rama Ashrama - Website Stylesheet
    ========================================================= */
 
 :root {
@@ -480,7 +479,7 @@ nav a:hover {
 }
 
 .announcement-card h2::after {
-  content: "рее";
+  content: "";
   display: block;
   color: var(--gold);
   font-size: 1.05rem;
@@ -531,7 +530,7 @@ nav a:hover {
 }
 
 .language-column h2::after {
-  content: "рее";
+  content: "";
   display: block;
   color: var(--gold);
   font-size: 1rem;
@@ -586,7 +585,7 @@ nav a:hover {
 }
 
 .donation-card h2::after {
-  content: "рее";
+  content: "";
   display: block;
   color: var(--gold);
   font-size: 1.05rem;
