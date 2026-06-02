@@ -411,8 +411,8 @@ nav a:hover {
 
 .announcement-hero {
   position: relative;
-  min-height: 55vh;
-
+  min-height: 32vh;
+  padding: 45px 8%;
   background: url("assets/background.jpg");
   background-size: cover;
   background-position: center;
@@ -439,7 +439,7 @@ nav a:hover {
   z-index: 2;
 
   max-width: 900px;
-  padding: 42px;
+  padding: 24px 30px;
 
   color: var(--ivory);
 }
