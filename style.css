@@ -276,12 +276,16 @@ nav a:hover {
   padding-left: 14px;
 }
 
-.section h2::after {
-  content: "рее";
+.section h2::after,
+.announcement-card h2::after,
+.donation-card h2::after,
+.language-column h2::after {
+  content: "";
   display: block;
-  color: var(--gold);
-  font-size: 1.05rem;
-  margin-top: 4px;
+  width: 90px;
+  height: 2px;
+  background: var(--gold);
+  margin: 12px auto 0;
 }
 
 .cards {
